@@ -14,7 +14,7 @@
 
 * {
   box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: var(--primary);
   margin: 0;
   padding: 0;
@@ -24,57 +24,18 @@ main {
   margin: 0;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
   line-height: 1.5;
-  font-size: 18px;
   letter-spacing: .1em;
   background: var(--secondary);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
-}
-
-h1 {
-  font-size: 2.25rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
 }
 
 a {

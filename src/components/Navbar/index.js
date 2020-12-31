@@ -13,24 +13,19 @@ const Navbar = (props) => {
     }, [currentCategory]);
 
     return (
-        <nav>
+        <nav className='flex-row px-1'>
+            <h1>
+                <a href='/'><span>Brian Spiewak</span></a>
+            </h1>
             <ul className='flex-row'>
-                {categories.map((category) => {
-                    return (
-                        <li
-                            className={`my-2 py-5 ${currentCategory.name === category.name && 'nav-active'
-                                }`} key={category.name}>
-                            <span onClick={() => {
-                                setCurrentCategory(category);
-                            }}>
-                                {category.name}
-                            </span>
-                        </li>
-                    );
-                })}
+                {categories.map((category) => (
+                    <li key={category.id} className='mx-2'>
+                        <span onClick={() => setCurrentCategory(category)}>{category.name}</span>
+                    </li>
+                ))}
             </ul>
         </nav>
     );
-}
+};
 
 export default Navbar;

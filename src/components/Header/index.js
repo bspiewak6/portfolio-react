@@ -1,29 +1,24 @@
-import React from 'react';
-// import coverImage from '../../assets/cover/cover-image.jpg';
-import coverImage from '../../assets/cover/option1.JPG';
+import React, { useState } from 'react';
 import Navbar from '../Navbar';
 
-const Header = (props) => {
-    const { 
-        categories = {},
-        currentCategory,
-        setCurrentCategory
-    } = props;
+const Header = () => {
+    const [categories] = useState([
+            { id: '1', name: 'About' },
+            { id: '2', name: 'Skills' },
+            { id: '3', name: 'Portfolio' },
+            { id: '4', name: 'Contact' },
+        ]);
 
-    return (
+        const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+        return (
         <div>
-            <div>
-                <h1>Hello, I'm Brian Spiewak</h1> 
-                <p>An up and coming full-stack web developer</p>
-            </div>
-            <div>
             <Navbar
                 categories={categories}
                 currentCategory={currentCategory}
                 setCurrentCategory={setCurrentCategory}
-            />
-            <img src={coverImage} style={{ width: "100%" }} alt="cover" />
-            </div>
+            >
+                </Navbar>
         </div>
     );
 }
