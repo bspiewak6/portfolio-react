@@ -1,22 +1,19 @@
 :root {
   --primary: #fafafa;
   --secondary: #F3A847;
-  --tertiary: #B12704;
+  --tertiary: #000055;
   --dark: #000000;
+  --light: #ffffff;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-   background-image: url(../src/assets/cover/cover-image.jpg);
-   background-size: cover;
-
 }
 
 * {
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: var(--primary);
   margin: 0;
   padding: 0;
 }
@@ -35,23 +32,17 @@ body {
   padding: 0;
   line-height: 1.5;
   letter-spacing: .1em;
-  background: var(--secondary);
   color: var(--light);
 }
-
+ 
 a {
-  color: var(--tertiary);
+  color: var(--primary);
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
-  background-color: var(--secondary);
-}
-
-header {
-  background: var(--dark);
+  color: var(--secondary);
 }
 
 header a {
@@ -63,11 +54,8 @@ header a {
   padding: 30px 75px;
   position: fixed;
   bottom: 0;
+  background: transparent;
 } 
-
-.footer span:hover {
-  background-color: var(--secondColor);
-}
 
 button {
   font-size: 1rem;
@@ -165,6 +153,11 @@ textarea {
   margin-left: var(--spacing-two);
 }
 
+.mx-5 {
+  margin-right: var(--spacing-five);
+  margin-left: var(--spacing-five);
+}
+
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
@@ -210,4 +203,37 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+}
+
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(./assets/cover/cover-image.jpg);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .65);
+  color: var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  color: var(--light);
+  background: transparent;
+}
+
+.navbar {
+  color: var(--light);
+  background: transparent;
 }

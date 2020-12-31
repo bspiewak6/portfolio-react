@@ -13,10 +13,7 @@ const Navbar = (props) => {
     }, [currentCategory]);
 
     return (
-        <nav className='flex-row px-1'>
-            <h1>
-                <a href='/'><span>Brian Spiewak</span></a>
-            </h1>
+        <nav className='flex-row px-2'>
             <ul className='flex-row'>
                 {categories.map((category) => (
                     <li key={category.id} className='mx-2'>

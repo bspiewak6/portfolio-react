@@ -27,14 +27,11 @@ function App() {
   // };
 
   return (
-    <div>
-      <div>
+    <div class="big-image">
+      <div class="overlay">
         <Header></Header>   
+        <Footer></Footer>
       </div>
-      <main>
-        {/* <About></About> */}
-      </main>
-      <Footer></Footer>
     </div>
   );
 }

@@ -7,18 +7,26 @@ const Header = () => {
             { id: '2', name: 'Skills' },
             { id: '3', name: 'Portfolio' },
             { id: '4', name: 'Contact' },
+            { id: '5', name: 'Resume'}
         ]);
 
         const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
         return (
         <div>
-            <Navbar
-                categories={categories}
-                currentCategory={currentCategory}
-                setCurrentCategory={setCurrentCategory}
-            >
+            <div className="navbar">
+                <Navbar
+                    categories={categories}
+                    currentCategory={currentCategory}
+                    setCurrentCategory={setCurrentCategory}
+                >
                 </Navbar>
+        </div>
+            <div className="name">
+                <h1>
+                    Brian Spiewak
+                </h1>
+            </div>
         </div>
     );
 }
