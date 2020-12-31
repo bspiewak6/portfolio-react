@@ -1,14 +1,15 @@
 :root {
-  --primary: #8c54ff;
+  --primary: #fafafa;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+   background-image: url(../src/assets/cover/cover-image.jpg);
+   background-size: cover;
 
 }
 
@@ -46,6 +47,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  background-color: var(--secondary);
 }
 
 header {
@@ -54,6 +56,17 @@ header {
 
 header a {
   color: var(--light);
+}
+
+.footer {
+  width: 100%;
+  padding: 30px 75px;
+  position: fixed;
+  bottom: 0;
+} 
+
+.footer span:hover {
+  background-color: var(--secondColor);
 }
 
 button {
