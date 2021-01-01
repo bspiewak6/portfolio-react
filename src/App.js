@@ -12,9 +12,7 @@ function App() {
     <div>
         <Header></Header>   
       <main>
-          <div>
             <About></About>
-          </div>
       </main>
         <Footer></Footer>
       </div>  

@@ -4,9 +4,11 @@ function About() {
 
     return(
         <section>
-            <h1>My Story</h1>
+            <h1 class="title">
+                My Story
+            </h1>
                 <div>
-                    <p>
+                    <p class="about-me">
                         I am a results-driven marketing director with 10-plus years’ experience of 
                         innovation, branding, communications and outreach. I have a strong track 
                         record driving revenue through the management of cross-functional creative, 

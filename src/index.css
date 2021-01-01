@@ -204,7 +204,7 @@ textarea {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(./assets/cover/cover-image.jpg);
+  background-image: url(./assets/cover-image.jpg);
 }
 
 .overlay {
@@ -249,3 +249,12 @@ footer {
 .icon {
   text-align: center;
 }
+
+/* ABOUT STYLES */
+.title {
+  color: var(--secondary)
+}
+.about-me {
+  color: var(--tertiary)
+}
+
