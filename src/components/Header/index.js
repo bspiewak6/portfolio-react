@@ -6,8 +6,7 @@ const Header = () => {
             { id: '1', name: 'About' },
             { id: '2', name: 'Skills' },
             { id: '3', name: 'Portfolio' },
-            { id: '4', name: 'Contact' },
-            { id: '5', name: 'Resume'}
+            { id: '4', name: 'Contact' }
         ]);
 
         const [currentCategory, setCurrentCategory] = useState(categories[0]);
