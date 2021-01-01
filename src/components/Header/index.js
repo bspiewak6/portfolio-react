@@ -12,7 +12,8 @@ const Header = () => {
         const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
         return (
-        <div>
+        <div className="big-image">
+            <div className="overlay">
             <div className="navbar">
                 <Navbar
                     categories={categories}
@@ -22,10 +23,9 @@ const Header = () => {
                 </Navbar>
         </div>
             <div className="name">
-                <h1>
-                    Brian Spiewak
-                </h1>
+                Brian Spiewak
             </div>
+        </div>
         </div>
     );
 }

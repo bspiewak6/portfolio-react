@@ -1,29 +1,24 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 // import Project from './components/Project';
 // import Skills from './components/Skills';
-import './index.css';
 
 
 function App() {
 
-  
   return (
-    <div class="big-image">
-      <div class="overlay">
-        <Header></Header>   
-        <Footer></Footer>
-      </div>
     <div>
-      <main>  
-      <About></About> 
+        <Header></Header>   
+      <main>
+          <div>
+            <About></About>
+          </div>
       </main>
-    </div>
-    </div>
+        <Footer></Footer>
+      </div>  
   );
 }
 
 export default App;
-
