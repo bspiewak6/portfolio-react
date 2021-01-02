@@ -149,7 +149,7 @@ nav li {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(./assets/cover-image.jpg);
+  background-image: url(./assets/images/cover-image.jpg);
 }
 
 .overlay {
@@ -286,4 +286,27 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
+}
+
+/* PORTFOLIO STYLES */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px 15px;
+}
+.project-grid-1 {
+  border-radius: 5%;
+  background-color: var(--primary);
+  box-shadow: 5px 10px 5px var(--secondary);
+  padding: 15px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.project-grid-2 {
+  border-radius: 5%;
+  background-color: var(--primary);
+  box-shadow: 5px 10px 5px var(--secondary);
+  padding: 15px;
+  grid-column: 2;
 }

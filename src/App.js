@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-// import Project from './components/Project';
+import Portfolio from './components/Project';
 // import Skills from './components/Skills';
 
 
@@ -31,8 +31,8 @@ function App() {
 
   function renderPage() {
     switch (currentCategory) {
-      // case 'Portfolio':
-      //   return <Portfolio />;
+      case 'Portfolio':
+        return <Portfolio />;
       // case 'Resume':
       //   return <Resume />;
       case 'Contact':
