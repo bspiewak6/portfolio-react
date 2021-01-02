@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Project';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -33,8 +33,8 @@ function App() {
     switch (currentCategory) {
       case 'Portfolio':
         return <Portfolio />;
-      // case 'Resume':
-      //   return <Resume />;
+      case 'Resume':
+        return <Resume />;
       case 'Contact':
         return <Contact />;
       default:

@@ -3,10 +3,10 @@ import React from 'react';
 function About() {
 
     return(
-        <section className="about-container" id="about">
-            <h1 className="about-title">
-                My Story
-            </h1>
+        <section className="about-container">
+                <h1 className="about-title" id="about">
+                About
+                </h1>
                 <div>
                     <p className="about-me-content">
                         I am a results-driven marketing director with 10-plus years’ experience of 
