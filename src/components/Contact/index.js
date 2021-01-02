@@ -11,7 +11,6 @@ function ContactForm() {
       e.preventDefault();
       if (!errorMessage) {
         setFormState({ [e.target.name]: e.target.value });
-        console.log('Form', formState);
       }
     };
   
@@ -33,19 +32,19 @@ function ContactForm() {
     };
     
     return (
-        <section>
-            <h1 class="title">Contact me</h1>
+        <section class="contact-container">
+            <h1 class="contact-title">Contact</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name-form">Name:</label>
+                    <label htmlFor="name" class="name-form">Name:</label>
                     <input type="text" defaultValue={name} onChange={handleChange} name="name" />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
+                    <label htmlFor="email" class="email-form">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onChange={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message" class="message-form">Message:</label>
                     <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
                 </div>
                 {errorMessage && (

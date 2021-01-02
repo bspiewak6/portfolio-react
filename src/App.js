@@ -17,7 +17,7 @@ function App() {
             <Contact></Contact>
       </main>
         <Footer></Footer>
-      </div>  
+    </div>  
   );
 }
 
