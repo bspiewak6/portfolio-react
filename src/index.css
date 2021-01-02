@@ -189,17 +189,21 @@ nav li {
 
 /* FOOTER STYLES */
 footer {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   bottom: 0;
   padding: 30px;
   width: 100%;
   background-color: var(--tertiary);
 }
 
-/* TITLE OF EACH COMPONENT STYLES */
-.title {
-  color: var(--secondary);
-  border-bottom: 1px solid var(--dark);
+.link {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: var(--primary);
 }
 
 /* ABOUT SECTION STYLES */
@@ -207,15 +211,23 @@ footer {
   color: var(--dark)
 }
 
+.title {
+  color: var(--secondary);
+  border-bottom: 1px solid var(--dark);
+  padding: 10px;
+}
+
 /* CONTACT FORM STYLES */
 .contact-container {
   background-color: var(--secondary);
+  padding-bottom: 50px;
 }
 
 .contact-title {
-  /* color: var(--primary); */
-  color: var(--secondary);
-  border-bottom: 1px solid var(--dark);
+  color: var(--primary);
+  /* color: var(--secondary); */
+  /* border-bottom: 1px solid var(--dark); */
+  padding:10px;
 }
 
 form {
@@ -224,7 +236,7 @@ form {
 }
 
 .name-form, .email-form, .message-form {
-  color: var(--dark);
+  color: var(--primary);
   margin: 15px 0 15px 0;
 }
 
@@ -237,11 +249,11 @@ input, textarea {
   width: 85%;
   margin-top: 5px;
   border-radius: 10px;
-  background-color: var(--light);
+  background-color: var(--primary);
 }
 
 input:focus, textarea:focus {
-  background-color: var(--light);
+  background-color: var(--primary);
   outline: none;
 }
 
@@ -253,9 +265,9 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: px 1px;
-  background-color: var(--secondary);
-  color: var(--light);
+  margin: 10px 1px;
+  background-color: var(--light);
+  color: var(--dark);
 }
 
 button:hover {
