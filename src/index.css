@@ -226,8 +226,9 @@ footer {
 .contact-title {
   color: var(--primary);
   /* color: var(--secondary); */
-  /* border-bottom: 1px solid var(--dark); */
-  padding:10px;
+  border-bottom: 1px solid var(--light);
+  padding: 20px;
+  text-align: center;
 }
 
 form {
