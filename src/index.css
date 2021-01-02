@@ -207,14 +207,21 @@ footer {
 }
 
 /* ABOUT SECTION STYLES */
-.about-me {
-  color: var(--dark)
+.about-container {
+  padding-bottom: 50px;
 }
 
-.title {
+.about-title {
   color: var(--secondary);
   border-bottom: 1px solid var(--dark);
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-me-content {
+  color: var(--dark);
+  margin: 25px 45px 35px 25px;
+  text-align: justify;
 }
 
 /* CONTACT FORM STYLES */
