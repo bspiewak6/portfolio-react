@@ -1,23 +1,20 @@
-import React, {useEffect} from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from 'react';
 
 const Navbar = (props) => {
     const {
         categories = {},
-        currentCategory,
         setCurrentCategory
     } = props;
-
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);
 
     return (
         <nav className='flex-row px-2'>
             <ul className='flex-row'>
                 {categories.map((category) => (
-                    <li key={category.id} className='mx-2'>
-                        <span onClick={() => setCurrentCategory(category)}>{category.name}</span>
+                    <li key={category.name} className='mx-2'>
+                        <a href={`#${category.name}`}>
+                        <span 
+                            onClick={() => setCurrentCategory(category.name)}
+                            >{category.name}</span></a>
                     </li>
                 ))}
             </ul>

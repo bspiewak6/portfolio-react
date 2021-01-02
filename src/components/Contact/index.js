@@ -32,7 +32,7 @@ function ContactForm() {
     };
     
     return (
-        <section class="contact-container">
+        <section class="contact-container" id="contact">
             <h1 class="contact-title">Contact</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
