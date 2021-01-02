@@ -348,3 +348,28 @@ button[disabled] {
   grid-row: 2;
   grid-column: 3;
 }
+
+/* RESUME STYLES */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.skills-container {
+  padding-bottom: 50px;
+}
+
+.skills-title {
+  color: var(--secondary);
+  border-bottom: 1px solid var(--dark);
+  padding: 20px;
+  text-align: center;
+}

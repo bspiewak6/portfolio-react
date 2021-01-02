@@ -9,7 +9,6 @@ import skill7 from '../../assets/images/stack-icons/materializecss.svg';
 import skill8 from '../../assets/images/stack-icons/mongodb-icon.svg';
 import skill9 from '../../assets/images/stack-icons/express.svg';
 
-
 const skills = [
         {
             name: 'HTML',
@@ -54,14 +53,19 @@ const skills = [
 
 const Resume = () => {
     return (
-        <div className='project-grid'>
-            {skills.map((skill) => (
+        <section className="skills-container">
+            <h1 className="skills-title" id="resume">
+                Resume
+            </h1>
+            <div className='skills-grid'>
+                {skills.map((skill) => (
                 <div key={skill.name} className='icon'>
                     <img src={skill.image} className='' alt={`${skill.name}`} />
                     <span>{skill.name}</span>
-            </div >
-            ))}
-        </div>
+                </div >
+                ))}
+            </div>
+        </section>
     );
 }
 
