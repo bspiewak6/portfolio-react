@@ -189,7 +189,6 @@ nav li {
 
 /* FOOTER STYLES */
 footer {
-  /* margin-top: 40px; */
   bottom: 0;
   padding: 30px;
   width: 100%;
@@ -308,62 +307,28 @@ button[disabled] {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 25px 25px;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 100px 20px 20px;
 }
 
-.project-grid-1 {
+.grid-item {
   border-radius: 5%;
-  background-color: var(--dark);
+  background-color: var(--light);
   box-shadow: 5px 10px 5px var(--secondary);
   padding: 15px;
-  grid-column: 1;
-  grid-row: 1;
 }
 
-.project-grid-2 {
-  border-radius: 5%;
-  background-color: var(--dark);
-  box-shadow: 5px 10px 5px var(--secondary);
-  padding: 15px;
-  grid-column: 2;
+.grid-item a {
+  color: var(--secondary);
 }
 
-.project-grid-3 {
-  border-radius: 5%;
-  background-color: var(--dark);
-  box-shadow: 5px 10px 5px var(--secondary);
-  padding: 15px;
-  grid-column: 3;
+.project-img {
+opacity: 1;
 }
 
-.project-grid-4 {
-  border-radius: 5%;
-  background-color: var(--dark);
-  box-shadow: 5px 10px 5px var(--secondary);
-  padding: 15px;
-  grid-row: 2;
-  grid-column: 1;
-}
-
-.project-grid-5 {
-  border-radius: 5%;
-  background-color: var(--dark);
-  box-shadow: 5px 10px 5px var(--secondary);
-  padding: 15px;
-  grid-row: 2;
-  grid-column: 2;
-}
-
-.project-grid-6 {
-  border-radius: 5%;
-  background-color: var(--dark);
-  box-shadow: 5px 10px 5px var(--secondary);
-  padding: 15px;
-  grid-row: 2;
-  grid-column: 3;
-}
+/* .project-img:hover .overlay {
+  opacity: 1;
+} */
 
 /* RESUME STYLES */
 .skills-grid {
@@ -415,5 +380,12 @@ button[disabled] {
   }
   100% {
     opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

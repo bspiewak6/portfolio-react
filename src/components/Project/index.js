@@ -33,7 +33,7 @@ const projects = [
     },
     {
         id: '4',
-        name: 'Social Network',
+        name: 'Social Network CLI',
         technologies: ['JavaScript, Node.js, Express.js API, MongoDB, Mongoose.js, Moment.js'],
         url: 'https://bspiewak6.github.io/social-network/',
         repo: 'social-network',
@@ -66,7 +66,7 @@ const Project = () => {
                 </h1>
         <div className='project-grid'>
             {projects.map((project) => (
-                <div key={project.repo} className={`project-grid-${project.id}`}>
+                <div key={project.repo} className='grid-item'>
                     <a href={project.url} target='_blank' rel="noreferrer" >
                         <h3 className='project-name'>{project.name}</h3>
                     </a>
@@ -75,7 +75,6 @@ const Project = () => {
                         alt={(`${project.name} App`)}
                         className='project-img'
                     />
-                    <p className='project-feature'>Technologies used: {project.technologies}</p>
                     <a href={(`https://github.com/bspiewak6/${project.repo}`)} target='_blank' rel="noreferrer" className='project-feature'>GitHub Repository</a>
                 </div>
             ))}
