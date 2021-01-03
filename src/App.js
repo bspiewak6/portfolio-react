@@ -5,6 +5,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Project';
 import Resume from './components/Resume';
+import ScrollTopArrow from './components/Scroll/index';
+import './index.css'
 
 
 function App() {
@@ -49,9 +51,15 @@ function App() {
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
         ></Header>   
-      <main id="contentScroller">
+        
+        <div className="App">
+          <ScrollTopArrow/>
+        </div>
+        
+        <main id="contentScroller">
             {renderPage(currentCategory)}
-      </main>
+        </main>
+        
         <Footer></Footer>
     </div>  
   );

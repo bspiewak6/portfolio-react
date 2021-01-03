@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar';
-// import Resume from '../../assets/BDS_Resume.pdf'
 
 const Header = (props) => {
 
@@ -18,9 +17,10 @@ const Header = (props) => {
                     </Navbar>
                 </div>
                 
-                <div className="name">
+                <h1 className="name animate__animated animate__rotateInUpLeft">
                 Brian Spiewak
-                </div>
+                </h1>
+                
             </div>
         </div>
     );

@@ -389,3 +389,31 @@ button[disabled] {
   padding: 20px;
   text-align: center;
 }
+
+/* SCROLL TO TOP */
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 32px;
+  height: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  /* animation: fadeIn 0.1s;
+  transition: opacity 0.3s; */
+  opacity: 0.5;
+  color: var(--dark);
+}
+
+.scrollTop:hover{
+  opacity: 2;
+  color: var(--dark);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

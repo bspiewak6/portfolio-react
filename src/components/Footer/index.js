@@ -14,9 +14,6 @@ function Footer() {
                 <div className='px-2'>
                     <a className="link" href="https://stackoverflow.com/users/13668454/brian-spiewak" target="_blank" rel='noreferrer'><i class="fab fa-stack-overflow fa-3x"></i></a>
                 </div>
-                <div className='px-2'>
-                    <a className="link" href="/"><i class="fas fa-chevron-circle-up fa-3x arrow-top"></i></a>
-                </div>
             </div>
 
         </footer>
