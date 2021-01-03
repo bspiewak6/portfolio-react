@@ -21,6 +21,18 @@ const Header = (props) => {
                 Brian Spiewak
                 </h1>
                 
+                <div className='flex-row home-links'>
+                    <div className='px-2'>
+                        <a className="link-home" href="https://github.com/bspiewak6" target="_blank" rel='noreferrer'><i className="fab fa-github fa-3x"></i></a>
+                    </div>
+                    <div className='px-2'>
+                        <a className="link-home" href="https://www.linkedin.com/in/brianspiewak/" target="_blank" rel='noreferrer'><i className="fab fa-linkedin fa-3x"></i></a>
+                    </div>
+                    <div className='px-2'>
+                        <a className="link-home" href="https://stackoverflow.com/users/13668454/brian-spiewak" target="_blank" rel='noreferrer'><i class="fab fa-stack-overflow fa-3x"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
