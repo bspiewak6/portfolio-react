@@ -60,6 +60,10 @@ const projects = [
 
 const Project = () => {
     return (
+        <section className="project-container">
+                <h1 className="project-title">
+                Portfolio
+                </h1>
         <div className='project-grid'>
             {projects.map((project) => (
                 <div key={project.repo} className={`project-grid-${project.id}`}>
@@ -75,7 +79,8 @@ const Project = () => {
                     <a href={(`https://github.com/bspiewak6/${project.repo}`)} target='_blank' rel="noreferrer" className='project-feature'>GitHub Repository</a>
                 </div>
             ))}
-        </div >
+        </div>
+        </section>
     );
 }
 
