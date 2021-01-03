@@ -17,7 +17,7 @@ const Header = (props) => {
                     </Navbar>
                 </div>
                 
-                <h1 className="name animate__animated animate__rotateInUpLeft">
+                <h1 className="name">
                 Brian Spiewak
                 </h1>
                 
