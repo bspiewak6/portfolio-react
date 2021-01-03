@@ -32,19 +32,19 @@ function ContactForm() {
     };
     
     return (
-        <section class="contact-container" id="contact">
-            <h1 class="contact-title">Contact</h1>
+        <section className="contact-container">
+            <h1 className="contact-title">Contact</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name" class="name-form">Name:</label>
+                    <label htmlFor="name" className="name-form">Name:</label>
                     <input type="text" defaultValue={name} onChange={handleChange} name="name" />
                 </div>
                 <div>
-                    <label htmlFor="email" class="email-form">Email address:</label>
+                    <label htmlFor="email" className="email-form">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onChange={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="message" class="message-form">Message:</label>
+                    <label htmlFor="message" className="message-form">Message:</label>
                     <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
                 </div>
                 {errorMessage && (

@@ -49,7 +49,7 @@ function App() {
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
         ></Header>   
-      <main>
+      <main id="contentScroller">
             {renderPage(currentCategory)}
       </main>
         <Footer></Footer>

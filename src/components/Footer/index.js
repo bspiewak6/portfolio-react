@@ -1,5 +1,4 @@
 import React from 'react';
-import Resume from '../../assets/BDS_Resume.pdf'
 
 function Footer() {
 
@@ -13,9 +12,13 @@ function Footer() {
                     <a className="link" href="https://www.linkedin.com/in/brianspiewak/" target="_blank" rel='noreferrer'><i className="fab fa-linkedin fa-3x"></i></a>
                 </div>
                 <div className='px-2'>
-                    <a className="link" href={`${Resume}`} download="Resume"><i class="fas fa-file-download fa-3x"></i></a>
+                    <a className="link" href="https://twitter.com/bspiewak" target="_blank" rel='noreferrer'><i className="fab fa-twitter fa-3x"></i></a>
+                </div>
+                <div className='px-2'>
+                    <a className="link" href="/"><i class="fas fa-chevron-circle-up fa-3x arrow-top"></i></a>
                 </div>
             </div>
+
         </footer>
     )
 }

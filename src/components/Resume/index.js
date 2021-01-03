@@ -54,9 +54,12 @@ const skills = [
 const Resume = () => {
     return (
         <section className="skills-container">
-            <h1 className="skills-title" id="resume">
+            <h1 className="skills-title">
                 Resume
             </h1>
+            <div className='px-2'>
+                    <a className="link" href={`${Resume}`} download="Resume"><i class="fas fa-file-download fa-3x"></i></a>
+            </div>
             <div className='skills-grid'>
                 {skills.map((skill) => (
                 <div key={skill.name} className='icon'>

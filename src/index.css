@@ -173,8 +173,8 @@ nav li {
   font-size: 48px;
 }
 
-.icons {
-  padding-top: 100px;
+.icon {
+  padding-top: 200px;
 }
 
 /* NAVBAR STYLES */
@@ -202,8 +202,14 @@ footer {
   font-weight: bold;
 }
 
-.link:hover {
+.link:hover, .arrow-top:hover {
   color: var(--primary);
+}
+
+.arrow-top {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
 }
 
 /* ABOUT SECTION STYLES */

@@ -12,9 +12,14 @@ const Navbar = (props) => {
                 {categories.map((category) => (
                     <li key={category.name} className='mx-2'>
                         <a href={`#${category.name}`}>
-                        <span 
-                            onClick={() => setCurrentCategory(category.name)}
-                            >{category.name}</span></a>
+                        <span
+                           onClick={() => {
+                                setCurrentCategory(category.name)
+                                document.getElementById("contentScroller").scrollIntoView()
+                         }}
+                       >
+                         {category.name}
+                       </span></a>
                     </li>
                 ))}
             </ul>
@@ -23,3 +28,4 @@ const Navbar = (props) => {
 };
 
 export default Navbar;
+
