@@ -130,18 +130,6 @@ nav li {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
 /* HEADER/NAV BACKGROUND IMAGE AND OVERLAY */
 .big-image {
   height: 100vh;
@@ -233,7 +221,6 @@ footer {
 
 .contact-title {
   color: var(--primary);
-  /* color: var(--secondary); */
   border-bottom: 1px solid var(--light);
   padding: 20px;
   text-align: center;
@@ -327,16 +314,23 @@ opacity: 1;
 } */
 
 /* RESUME STYLES */
-.resume {
+.resume, .resume-p {
   color: var(--secondary);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.f-skill, .b-skill {
+  color: var(--tertiary);
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 25px 25px;
+  margin: 20px 100px 20px 20px;
 }
 
 .skills-container {
