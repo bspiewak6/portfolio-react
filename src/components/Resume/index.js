@@ -8,6 +8,11 @@ import skill6 from '../../assets/images/stack-icons/nodejs.svg';
 import skill7 from '../../assets/images/stack-icons/materializecss.svg';
 import skill8 from '../../assets/images/stack-icons/mongodb-icon.svg';
 import skill9 from '../../assets/images/stack-icons/express.svg';
+import skill10 from '../../assets/images/stack-icons/handlebars.svg';
+import skill11 from '../../assets/images/stack-icons/heroku-icon.svg';
+import skill12 from '../../assets/images/stack-icons/mysql.svg';
+import skill13 from '../../assets/images/stack-icons/npm.svg';
+// {FaReact}
 
 const skills = [
         {
@@ -31,22 +36,50 @@ const skills = [
             image: skill5
         },
         {
-            name: 'Node.js',
-            image: skill6
-        },
-        {
             name: 'Materialize',
             image: skill7
+        },
+        {
+            name: 'React',
+            image: skill6
+        },
+        // BACKEND
+        {
+            name: 'Node.js',
+            image: skill6
         },
         {
             name: 'MongoDB',
             image: skill8
         },
         {
-            name: 'Express',
+            name: 'Express.js',
             image: skill9
         },
-        
+        {
+            name: 'Handlebars',
+            image: skill10
+        },
+        {
+            name: 'Heroku',
+            image: skill11
+        },
+        {
+            name: 'MySQL',
+            image: skill12
+        },        
+        {
+            name: 'npm',
+            image: skill13
+        },
+        {
+            name: 'Sequelize',
+            image: skill13
+        },
+        {
+            name: 'Mongoose',
+            image: skill13
+        }
 
 
 ]
@@ -57,14 +90,14 @@ const Resume = () => {
             <h1 className="skills-title">
                 Resume
             </h1>
-            <div className='px-2'>
-                    <a className="link" href={`${Resume}`} download="Resume"><i class="fas fa-file-download fa-3x"></i></a>
-            </div>
+            <p>
+                <a className='resume' href='https://drive.google.com/file/d/148WH71Wt3qNmuuUSqGUGHLObGRPzUK0H/view?usp=sharing' target='_blank' rel='noopener noreferrer'>View my resume</a>
+            </p>
             <div className='skills-grid'>
                 {skills.map((skill) => (
                 <div key={skill.name} className='icon'>
-                    <img src={skill.image} className='' alt={`${skill.name}`} />
-                    <span>{skill.name}</span>
+                    <img src={skill.image} className='skill-icon' alt={`${skill.name}`} />
+                    <span className='skill-name'>{skill.name}</span>
                 </div >
                 ))}
             </div>
