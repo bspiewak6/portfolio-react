@@ -251,29 +251,47 @@ footer {
 .project-text {
   color: var(--secondary);
 }
+ 
+.card-columns {
+  margin: 25px 85px 35px 85px; 
+} 
 
-/* .project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px 25px;
-  margin: 25px 85px 35px 85px;
+.card-image {
+  position: relative;
 }
 
-.grid-item {
-  border-radius: 5%;
-  background-color: var(--light);
-  padding: 15px;
-  box-shadow: 5px 10px 5px var(--secondary);
+.image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: var(--dark);
 }
 
-.grid-item a {
-  color: var(--secondary);
-} */
+.card-title {
+  padding-top: 100px;
+  text-align: center;
+}
 
-/* 
-.project-img {
+.text-muted {
+  text-align: center;
+  font-size: 12px;
+}
 
-} */
+.card-title a, .text-muted a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.card:hover .image-overlay, .card-title:hover, .card-text:hover .text-muted:hover {
+  opacity: .75;
+  text-align: center;
+}
 
 /* RESUME STYLES */
 .resume, .resume-p {
@@ -388,6 +406,11 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
+}
+
+.contact-text {
+  margin: 15px;
+  text-align: center;
 }
 
 /* SCROLL TO TOP */
