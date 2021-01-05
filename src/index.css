@@ -214,10 +214,17 @@ footer {
 }
 
 .about-headshot {
-  width: 100%;
-  float: left;
-  max-width: 350px;
-  padding: 0 35px 0 30px;
+  height: 60vh;
+  width: 60vw;
+}
+
+.about-card {
+  border: none;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
 }
 
 .about-content {
@@ -226,7 +233,7 @@ footer {
 
 .about-me-content {
   color: var(--dark);
-  margin: 25px 85px 35px 85px;
+  margin: 10px 45px 10px 30px;
   text-align: justify;
 }
 

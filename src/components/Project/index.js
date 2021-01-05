@@ -17,63 +17,63 @@ const Project = () => {
                 My passion for marketing has grown as my career has progressed. <br />There is no better way to explain than to show you.
             </h5>
 
-            <div class="card-columns">
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project1} alt="Simply ReUse App" />
-                        <div class="image-overlay">
-                        <h4 class="card-title"><a href="https://simplyreuse3.herokuapp.com/" target="_blank" rel="noreferrer">Simply ReUse</a></h4>
-                        <p class="text-muted"><a href="https://github.com/bspiewak6/Simply-ReUse" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+            <div className="card-columns">
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project1} alt="Simply ReUse App" />
+                        <div className="image-overlay">
+                        <h4 className="card-title"><a href="https://simplyreuse3.herokuapp.com/" target="_blank" rel="noreferrer">Simply ReUse</a></h4>
+                        <p className="text-muted"><a href="https://github.com/bspiewak6/Simply-ReUse" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project4} alt="Social Network CLI" />
-                        <div class="image-overlay">
-                            <h4 class="card-title">Social Network CLI</h4>
-                            <p class="text-muted"><a href="https://github.com/bspiewak6/social-network" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project4} alt="Social Network CLI" />
+                        <div className="image-overlay">
+                            <h4 className="card-title">Social Network CLI</h4>
+                            <p className="text-muted"><a href="https://github.com/bspiewak6/social-network" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project2} alt="TuneOut" />
-                        <div class="image-overlay">
-                            <h4 class="card-title"><a href="https://bspiewak6.github.io/music/" target="_blank" rel="noreferrer">TuneOut Entertainment</a></h4>
-                            <p class="text-muted"><a href="https://github.com/bspiewak6/music" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project2} alt="TuneOut" />
+                        <div className="image-overlay">
+                            <h4 className="card-title"><a href="https://bspiewak6.github.io/music/" target="_blank" rel="noreferrer">TuneOut Entertainment</a></h4>
+                            <p className="text-muted"><a href="https://github.com/bspiewak6/music" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project5} alt="Dev Blog" />
-                        <div class="image-overlay">
-                            <h4 class="card-title"><a href="https://sleepy-stream-52263.herokuapp.com/" target="_blank" rel="noreferrer">Developers Everywhere</a></h4>
-                            <p class="text-muted"><a href="https://github.com/bspiewak6/developer-techblog" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project5} alt="Dev Blog" />
+                        <div className="image-overlay">
+                            <h4 className="card-title"><a href="https://sleepy-stream-52263.herokuapp.com/" target="_blank" rel="noreferrer">Developers Everywhere</a></h4>
+                            <p className="text-muted"><a href="https://github.com/bspiewak6/developer-techblog" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project3} alt="Budget Tracker" />
-                        <div class="image-overlay">
-                            <h4 class="card-title"><a href="https://budgettrackerbds.herokuapp.com/" target="_blank" rel="noreferrer">Budget Tracker PWA</a></h4>
-                            <p class="text-muted"><a href="https://github.com/bspiewak6/budget-tracker" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project3} alt="Budget Tracker" />
+                        <div className="image-overlay">
+                            <h4 className="card-title"><a href="https://budgettrackerbds.herokuapp.com/" target="_blank" rel="noreferrer">Budget Tracker PWA</a></h4>
+                            <p className="text-muted"><a href="https://github.com/bspiewak6/budget-tracker" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <img class="card-img-top" src={project6} alt="Weather Dashboard" />
-                        <div class="image-overlay">
-                            <h4 class="card-title"><a href="https://bspiewak6.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Weather Dashboard</a></h4>
-                            <p class="text-muted"><a href="https://github.com/bspiewak6/weather-dashboard" target="_blank" rel="noreferrer">GitHub Repository</a></p>
+                <div className="card">
+                    <div className="card-image">
+                        <img className="card-img-top" src={project6} alt="Weather Dashboard" />
+                        <div className="image-overlay">
+                            <h4 className="card-title"><a href="https://bspiewak6.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Weather Dashboard</a></h4>
+                            <p className="text-muted"><a href="https://github.com/bspiewak6/weather-dashboard" target="_blank" rel="noreferrer">GitHub Repository</a></p>
                         </div>
                     </div>
                 </div>
