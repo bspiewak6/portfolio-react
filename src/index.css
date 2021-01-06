@@ -130,7 +130,7 @@ nav li {
 .name {
   color: var(--light);
   background: transparent;
-  font-size: 48px;
+  font-size: 55px;
   overflow: hidden;
   border-right: .15em solid var(--tertiary); 
   white-space: nowrap;
@@ -209,13 +209,14 @@ footer {
 .about-title {
   color: var(--secondary);
   border-bottom: 1px solid var(--dark);
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
 .about-headshot {
   height: 60vh;
-  width: 60vw;
+  width: 70vw;
+  margin-left: 10px;
 }
 
 .about-card {
@@ -308,7 +309,7 @@ footer {
 }
 
 .f-skill, .b-skill {
-  color: var(--tertiary);
+  color: var(--secondary);
   margin-left: 85px;
   padding-top: 20px;
 }

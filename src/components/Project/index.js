@@ -89,7 +89,7 @@ export default Project;
 //     {
 //         id: '1',
 //         name: 'Simply ReUse',
-//         // technologies: ['Node.js, Express.js, Handlebars.js, MySQL and the Sequelize ORM, HTML, CSS, JavaScript, MVC Framework, fuse.js, Heroku'],
+//         technologies: ['Node.js, Express.js, Handlebars.js, MySQL and the Sequelize ORM, HTML, CSS, JavaScript, MVC Framework, fuse.js, Heroku'],
 //         url1: 'https://simplyreuse3.herokuapp.com/',
 //         repo1: 'Simply-ReUse',
 //         image: project1
@@ -97,7 +97,7 @@ export default Project;
 //     {
 //         id: '2',
 //         name: 'TuneOut',
-//         // technologies: ['HTML, JavaScript, Materialize CSS, Moment.js, TasteDive Music API, NY Times API'],
+//         technologies: ['HTML, JavaScript, Materialize CSS, Moment.js, TasteDive Music API, NY Times API'],
 //         url: 'https://bspiewak6.github.io/music/',
 //         repo: 'music',
 //         image: project2
@@ -105,7 +105,7 @@ export default Project;
 //     {
 //         id: '3',
 //         name: 'Budget Tracker',
-//         // technologies: ['JavaScript, Express.js, MongoDB, MongoDB Atlas, Mongoose.js, Heroku'],
+//         technologies: ['JavaScript, Express.js, MongoDB, MongoDB Atlas, Mongoose.js, Heroku'],
 //         url: 'https://budgettrackerbds.herokuapp.com/',
 //         repo: 'budget-tracker',
 //         image: project3
@@ -113,7 +113,7 @@ export default Project;
 //     {
 //         id: '4',
 //         name: 'Social Network CLI',
-//         // technologies: ['JavaScript, Node.js, Express.js API, MongoDB, Mongoose.js, Moment.js'],
+//         technologies: ['JavaScript, Node.js, Express.js API, MongoDB, Mongoose.js, Moment.js'],
 //         url: 'https://bspiewak6.github.io/social-network/',
 //         repo: 'social-network',
 //         image: project4
@@ -121,7 +121,7 @@ export default Project;
 //     {
 //         id: '5',
 //         name: 'Developers Everywhere',
-//         // technologies: ['JavaScript, Node.js, Express.js API, Sequelize, MVC Framework, Handlebars.js, MySQL2'],
+//         technologies: ['JavaScript, Node.js, Express.js API, Sequelize, MVC Framework, Handlebars.js, MySQL2'],
 //         url: 'https://bspiewak6.github.io/developer-techblog/',
 //         repo: 'developer-techblog',
 //         image: project5
@@ -129,7 +129,7 @@ export default Project;
 //     {
 //         id: '6',
 //         name: 'Weather Dashboard',
-//         // technologies: ['HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, OpenWeather API'],
+//         technologies: ['HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js, OpenWeather API'],
 //         url: 'https://bspiewak6.github.io/developer-techblog/',
 //         repo: 'weather-dashboard',
 //         image: project6
