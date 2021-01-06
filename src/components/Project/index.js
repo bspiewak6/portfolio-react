@@ -54,8 +54,7 @@ const projects = [
         url: 'https://bspiewak6.github.io/weather-dashboard/',
         repo: 'weather-dashboard',
         image: project6
-    },
-
+    }
 ]
 
 const Project = () => {
@@ -154,7 +153,7 @@ export default Project;
 </div> */
 
 
-{/* <div className='project-grid'>
+/* <div className='project-grid'>
     {projects.map((project) => (
         <div key={project.repo} className='grid-item'>
             <img
@@ -168,5 +167,5 @@ export default Project;
             <a href={(`https://github.com/bspiewak6/${project.repo}`)} target='_blank' rel="noreferrer" className='project-feature'>GitHub Repository</a>
         </div>
     ))}
-</div> */}
+</div> */
 
