@@ -10,7 +10,6 @@ function About() {
             </h1>
 
             <div className="card about-card">
-                {/* <div className="card-horizontal"> */}
                     <div className="card-body">
                         <img 
                             src={headshot}
@@ -39,8 +38,6 @@ function About() {
                         </p>
                     </div>
                 </div>
-        
-            {/* </div> */}
         </section>
     );
 }

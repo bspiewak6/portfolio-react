@@ -33,7 +33,6 @@ function ContactForm() {
     
     return (
         <section className="contact-container">
-            
             <h1 className="contact-title">Contact</h1>
             <h5 className="contact-text">For all inquiries, feel free to contact me!</h5>
 
@@ -62,3 +61,6 @@ function ContactForm() {
 }
 
 export default ContactForm;
+
+
+// add in back-end functionality for form in the future 

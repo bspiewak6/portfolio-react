@@ -65,7 +65,7 @@ const Project = () => {
             </h1>
 
             <h5 className="project-intro">
-                My passion for marketing has grown as my career has progressed. <br />There is no better way to explain than to show you.
+                My passion for marketing has grown as my career has progressed. There is no better way to explain than to show you.
             </h5>
 
             <div className="card-columns">
