@@ -12,7 +12,7 @@ After completing five months of the UPenn Coding Bootcamp, this assignment was t
 
 ## Technologies
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 ![React Icons](https://img.shields.io/badge/React%20Icons-B82669?style=for-the-badge&logo=react&logoColor=61DAFB)   
@@ -20,15 +20,15 @@ After completing five months of the UPenn Coding Bootcamp, this assignment was t
 
 ## Screenshots
 #### Homepage
-![Screenshots](./src/assets/images/screenshot-homepage.png)  
+![Screenshots](./src/assets/images/screenshot-homepage.png)    
 
-![Screenshots](./src/assets/images/screenshot-about.png)  
+![Screenshots](./src/assets/images/screenshot-about.png)    
 
-![Screenshots](./src/assets/images/screenshot-portfolio.png)  
+![Screenshots](./src/assets/images/screenshot-portfolio.png)    
 
-![Screenshots](./src/assets/images/screenshot-resume.png)  
+![Screenshots](./src/assets/images/screenshot-resume.png)    
 
-![Screenshots](./src/assets/images/screenshot-contact.png)
+![Screenshots](./src/assets/images/screenshot-contact.png)  
 
 ## Requirements
 1. When the user visits the homepage for the first time, they are shown my name and a navigation with About, Portfolio, Resume and Contact
