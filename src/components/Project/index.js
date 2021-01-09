@@ -68,7 +68,7 @@ const Project = () => {
                 My passion for marketing has grown as my career has progressed. There is no better way to explain than to show you.
             </h5>
 
-            <div className="card-columns">
+            <div className="card-columns col-12 col-sm-12">
                 {projects.map((project) => (
                     <div key={project.repo} className='card'>
                         <div className="card-image">
@@ -77,7 +77,7 @@ const Project = () => {
                                 alt={(`${project.name} App`)}
                                 className='card-img-top'
                             />
-                            <div className="image-overlay">
+                            <div className="image-overlay col-12">
                                 <h4 className="card-title"><a href={project.url} target='_blank' rel="noreferrer">{project.name}</a></h4>
                                 <p className="text-muted"><a href={(`https://github.com/bspiewak6/${project.repo}`)} target='_blank' rel="noreferrer">GitHub Repository</a></p>
                             </div>
