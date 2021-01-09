@@ -10,7 +10,7 @@ const Navbar = (props) => {
         <nav className='flex-row px-2'>
             <ul className='flex-row'>
                 {categories.map((category) => (
-                    <li key={category.name} className='mx-2'>
+                    <li key={category.name} className='mx-4'>
                         <a href={`#${category.name}`}>
                         <span
                            onClick={() => {
@@ -29,3 +29,4 @@ const Navbar = (props) => {
 
 export default Navbar;
 
+// add in hamburger menu functionality at smaller screen size in the future

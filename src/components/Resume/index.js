@@ -104,7 +104,7 @@ const Resume = () => {
                             <img
                                 src={skill.image}
                                 alt={`${skill.name}`}
-                                className='card-img-top skill-icon'
+                                className='skill-icon'
                             />
                             <span className='card-text skill-name'>{skill.name}</span>
                         </div>
@@ -126,7 +126,7 @@ const Resume = () => {
                                 alt={`${skill.name}`} 
                                 className='card-img-top skill-icon'
                             />
-                            <span className='card-text skill-name'>{skill.name}</span>
+                            <span className='text-center skill-name'>{skill.name}</span>
                         </div>
                         </div>
                     ))}
