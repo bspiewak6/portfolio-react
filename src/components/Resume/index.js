@@ -99,7 +99,7 @@ const Resume = () => {
 
             <div className="card-columns">
                 {frontendSkills.map((skill) => (
-                    <div key={skill.name} className='card border-0'>
+                    <div key={skill.name} className='card'>
                         <div className="card-image">
                             <img
                                 src={skill.image}

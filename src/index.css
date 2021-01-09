@@ -1,7 +1,7 @@
 :root {
-  --primary: #fafafa;
-  --secondary: #23395d;
-  --tertiary: #117986;
+  --main: #fafafa;
+  --second: #23395d;
+  --third: #117986;
   --dark: #000000;
   --light: #ffffff;
   --spacing-one: calc(1rem * 0.5);
@@ -31,17 +31,17 @@ body {
   padding: 0;
   line-height: 1.5;
   letter-spacing: .1em;
-  color: var(--primary);
+  color: var(--main);
 }
  
 a {
-  color: var(--primary);
+  color: var(--main);
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: var(--tertiary);
+  color: var(--third);
 }
 
 header a {
@@ -132,7 +132,7 @@ nav li {
   background: transparent;
   font-size: 55px;
   overflow: hidden;
-  border-right: .15em solid var(--tertiary); 
+  border-right: .15em solid var(--third); 
   white-space: nowrap;
   margin: 0 auto; 
   letter-spacing: .15em; 
@@ -150,7 +150,7 @@ nav li {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: var(--tertiary) }
+  50% { border-color: var(--third) }
 }
 
 .home-links {
@@ -158,13 +158,13 @@ nav li {
 }
 
 .link-home {
-  color: var(--primary);
+  color: var(--main);
   text-decoration: none;
   font-weight: bold;
 }
 
 .link-home:hover {
-  color: var(--tertiary);
+  color: var(--third);
 }
 
 /* NAVBAR STYLES */
@@ -182,7 +182,7 @@ footer {
   bottom: 0;
   padding: 30px;
   width: 100%;
-  background-color: var(--tertiary);
+  background-color: var(--third);
 }
 
 .link {
@@ -192,7 +192,7 @@ footer {
 }
 
 .link:hover, .arrow-top:hover {
-  color: var(--primary);
+  color: var(--main);
 }
 
 .arrow-top {
@@ -207,7 +207,7 @@ footer {
 }
 
 .about-title {
-  color: var(--secondary);
+  color: var(--second);
   border-bottom: 1px solid var(--dark);
   padding: 20px;
   text-align: center;
@@ -239,20 +239,20 @@ footer {
 }
 
 .project-title {
-  color: var(--secondary);
+  color: var(--second);
   border-bottom: 1px solid var(--dark);
   padding: 20px;
   text-align: center;
 }
 
 .project-intro {
-  color: var(--secondary);
+  color: var(--second);
   margin: 25px 85px 35px 85px;
   text-align: center;
 }
 
 .project-text {
-  color: var(--secondary);
+  color: var(--second);
 }
  
 .card-columns {
@@ -288,7 +288,7 @@ footer {
 
 .card-title a, .text-muted a {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--main);
 }
 
 .card:hover .image-overlay, .card-title:hover, .card-text:hover .text-muted:hover {
@@ -298,13 +298,13 @@ footer {
 
 /* RESUME STYLES */
 .resume, .resume-p {
-  color: var(--secondary);
+  color: var(--second);
   text-align: center;
   padding-top: 50px;
 }
 
 .f-skill, .b-skill {
-  color: var(--secondary);
+  color: var(--second);
   margin-left: 85px;
   padding-top: 20px;
 }
@@ -314,7 +314,7 @@ footer {
 }
 
 .skills-title {
-  color: var(--secondary);
+  color: var(--second);
   border-bottom: 1px solid var(--dark);
   padding: 20px;
   text-align: center;
@@ -333,18 +333,18 @@ footer {
 
 .skill-name {
   font-size: 14px;
-  color: var(--secondary);
+  color: var(--second);
   text-align: center;
 }
 
 /* CONTACT FORM STYLES */
 .contact-container {
-  background-color: var(--secondary);
+  background-color: var(--second);
   padding-bottom: 50px;
 }
 
 .contact-title {
-  color: var(--primary);
+  color: var(--main);
   border-bottom: 1px solid var(--light);
   padding: 20px;
   text-align: center;
@@ -356,7 +356,7 @@ form {
 }
 
 .name-form, .email-form, .message-form {
-  color: var(--primary);
+  color: var(--main);
   margin: 15px 0 15px 0;
 }
 
@@ -365,15 +365,15 @@ input, textarea {
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: var(--secondary);
+  color: var(--second);
   width: 100%;
   margin-top: 5px;
   border-radius: 10px;
-  background-color: var(--primary);
+  background-color: var(--main);
 }
 
 input:focus, textarea:focus {
-  background-color: var(--primary);
+  background-color: var(--main);
   outline: none;
 }
 
@@ -434,7 +434,7 @@ button[disabled] {
   }
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .project-intro {
     font-size: 16px;
     flex-wrap: wrap;
@@ -447,4 +447,8 @@ button[disabled] {
   .text-muted {
     font-size: 12px;
   } 
-} */
+
+  span .card-text {
+    text-align: center;
+  }
+} 

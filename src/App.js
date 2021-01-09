@@ -7,6 +7,7 @@ import Portfolio from './components/Project';
 import Resume from './components/Resume';
 import ScrollTopArrow from './components/Scroll/index';
 import './index.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
