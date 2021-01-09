@@ -21,13 +21,13 @@ After completing five months of the UPenn Coding Bootcamp, this assignment was t
 ## Screenshots
 #### Homepage
 ![Screenshots](./src/assets/images/screenshot-homepage.png)  
-#### About
+
 ![Screenshots](./src/assets/images/screenshot-about.png)  
-#### Portfolio
+
 ![Screenshots](./src/assets/images/screenshot-portfolio.png)  
-#### Resume
+
 ![Screenshots](./src/assets/images/screenshot-resume.png)  
-#### Contact
+
 ![Screenshots](./src/assets/images/screenshot-contact.png)
 
 ## Requirements
