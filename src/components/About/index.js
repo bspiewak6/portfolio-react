@@ -31,10 +31,10 @@ function About() {
                         <br />
                         <br />
                         Just last year, I took on a new challenge in the form of something I've always been interested in, web development. For the last 
-                        six months, I've been a student at the UPenn Coding Bootcamp. This has given me a better understanding of both front-end and back-end 
-                        technologies. Learning to code and putting these skills to use has been very rewarding because I am someone who likes to see my work 
-                        come to life. Projects get me motivated and learning something new is always fascinating. The next chapter of my career is yet to be 
-                        written, but I am eager to keep moving onward and upward!
+                        six months, I attended the UPenn Coding Bootcamp. Now that I have completed the bootcamp, it has given me a better understanding of both 
+                        front-end and back-end technologies. Learning to code and putting these skills to use has been very rewarding because I am someone who 
+                        likes to see my work come to life. Projects get me motivated and learning something new is always fascinating. The next chapter of my 
+                        career is yet to be written, but I am eager to keep moving onward and upward!
                         </p>
                     </div>
                 </div>

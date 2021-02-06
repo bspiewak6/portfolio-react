@@ -1,12 +1,15 @@
+import './index.css'
+
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import Portfolio from './components/Project';
-import Resume from './components/Resume';
 import ScrollTopArrow from './components/Scroll/index';
-import './index.css'
+import Skills from './components/Skills';
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -22,7 +25,7 @@ function App() {
     },
     {
       id: '3',
-      name: 'Resume',
+      name: 'Skills',
     },
     {
       id: '4',
@@ -36,8 +39,8 @@ function App() {
     switch (currentCategory) {
       case 'Portfolio':
         return <Portfolio />;
-      case 'Resume':
-        return <Resume />;
+      case 'Skills':
+        return <Skills />;
       case 'Contact':
         return <Contact />;
       default:

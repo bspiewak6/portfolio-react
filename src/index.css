@@ -430,7 +430,7 @@ button[disabled] {
   }
 }
 
-/* MEDIA QUERIES FOR PORTFOLIO CARD TEXT */
+/* MEDIA QUERIES SMALLER SCREEN SIZES */
 @media screen and (max-width: 1200px) {
   .card-title {
     font-size: 16px;

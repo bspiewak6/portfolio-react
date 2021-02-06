@@ -1,5 +1,13 @@
 import React from 'react';
 import skill1 from '../../assets/images/stack-icons/html-5.svg';
+import skill10 from '../../assets/images/stack-icons/apollo.svg';
+import skill11 from '../../assets/images/stack-icons/mysql.svg';
+import skill12 from '../../assets/images/stack-icons/react.svg';
+import skill13 from '../../assets/images/stack-icons/mongoose.jpg';
+import skill14 from '../../assets/images/stack-icons/sequelize.svg';
+import skill15 from '../../assets/images/stack-icons/chromedev.jpg';
+import skill16 from '../../assets/images/stack-icons/jest.svg';
+import skill17 from '../../assets/images/stack-icons/graphql.svg';
 import skill2 from '../../assets/images/stack-icons/css-3.svg';
 import skill3 from '../../assets/images/stack-icons/javascript.svg';
 import skill4 from '../../assets/images/stack-icons/jquery-icon.svg';
@@ -8,13 +16,6 @@ import skill6 from '../../assets/images/stack-icons/nodejs.svg';
 import skill7 from '../../assets/images/stack-icons/materializecss.svg';
 import skill8 from '../../assets/images/stack-icons/mongodb-icon.svg';
 import skill9 from '../../assets/images/stack-icons/express.svg';
-import skill10 from '../../assets/images/stack-icons/handlebars.svg';
-import skill11 from '../../assets/images/stack-icons/mysql.svg';
-import skill12 from '../../assets/images/stack-icons/react.svg';
-import skill13 from '../../assets/images/stack-icons/mongoose.jpg';
-import skill14 from '../../assets/images/stack-icons/sequelize.svg';
-import skill15 from '../../assets/images/stack-icons/bulma.svg';
-import skill16 from '../../assets/images/stack-icons/jest.svg';
 
 const frontendSkills = [
     {
@@ -42,7 +43,7 @@ const frontendSkills = [
         image: skill7
     },
     {
-        name: 'Bulma',
+        name: 'Chrome Dev Tools',
         image: skill15
     },
     {
@@ -69,8 +70,12 @@ const backendSkills = [
         image: skill13
     },
     {
-        name: 'Handlebars',
+        name: 'Apollo',
         image: skill10
+    },
+    {
+        name: 'GraphQL',
+        image: skill17
     },
     {
         name: 'MySQL',
@@ -86,15 +91,15 @@ const backendSkills = [
     }
 ]
 
-const Resume = () => {
+const Skills = () => {
     return (
         <section className="skills-container">
             <h1 className="skills-title">
-                Resume
+                Full Stack Proficiencies
             </h1>
 
             <h4 className="f-skill">
-                Front-End Skills
+                Front-End
             </h4>
 
             <div className="card-columns">
@@ -114,7 +119,7 @@ const Resume = () => {
 
 
             <h4 className=" b-skill">
-                Back-End Skills
+                Back-End
             </h4>
 
             <div className='card-columns'>
@@ -128,15 +133,15 @@ const Resume = () => {
                             />
                             <span className='text-center skill-name'>{skill.name}</span>
                         </div>
-                        </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
+            </div>
 
-            <p className='resume-p'>
+            {/* <p className='resume-p'>
                 <a className='resume' href='https://drive.google.com/file/d/148WH71Wt3qNmuuUSqGUGHLObGRPzUK0H/view?usp=sharing' target='_blank' rel='noopener noreferrer'>View or Download My Resume</a>
-            </p>
+            </p> */}
         </section>
     );
 }
 
-export default Resume;
+export default Skills;
